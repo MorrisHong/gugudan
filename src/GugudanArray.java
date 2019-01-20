@@ -15,11 +15,11 @@ public class GugudanArray {
 		}
 		
 		System.out.println("--------2중for문으로 구현.--------");
-		for(int i = 1; i < result.length; i++) {
-			System.out.printf("%d단\n",i+1);
+		for(int i = 2; i < 10; i++) {
+			System.out.printf("%d단\n",i);
 			for(int j = 0; j < result.length; j++) {
-				result[j] = (i+1) * (j+1);
-				System.out.printf("%d * %d = %d\n",i+1 ,j+1,result[j]);
+				result[j] = (i) * (j+1);
+				System.out.printf("%d * %d = %d\n",i ,j+1,result[j]);
 			}
 			System.out.println();
 		}
